@@ -10,8 +10,8 @@ function Home() {
       </h1>
       <p class="mb-8 leading-relaxed">All the things a farmer of India needs to know in today's date of change and development.</p>
       <div class="flex justify-center">
-        <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Begin exploring</button>
-        <button class="ml-4 inline-flex text-gray-700 bg-gray-300 border-0 py-2 px-6 focus:outline-none hover:bg-gray-400 rounded text-lg">Try Kisaan AI</button>
+        <a href="blog.html"><button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg" >Begin exploring</button></a>
+        <a href="ai.html"><button class="ml-4 inline-flex text-gray-700 bg-gray-300 border-0 py-2 px-6 focus:outline-none hover:bg-gray-400 rounded text-lg">Try Kisaan AI</button></a>
       </div>
     </div>
     <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
