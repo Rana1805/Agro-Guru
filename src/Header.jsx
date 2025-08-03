@@ -14,6 +14,7 @@ function Header() {
       <a class="mr-5 hover:text-blue-100" href="blog.html" style={{ cursor: 'pointer' }}>Blogs</a>
       <a class="mr-5 hover:text-blue-100" href="labs.html" style={{ cursor: 'pointer' }}>Labs Near Me</a>
       <a class="mr-5 hover:text-blue-100" href="marketplace.html" style={{ cursor: 'pointer' }}>Marketplace</a>
+      <a class="mr-5 hover:text-blue-100" href="forum.html" style={{ cursor: 'pointer' }}>Forum</a>
       <a class="mr-5 hover:text-blue-100" href="ai.html" style={{ cursor: 'pointer' }}>Kisaan AI</a>
     </nav>
     <button class="inline-flex items-center bg-lime-200 border-0 py-1 px-3 focus:outline-none hover:bg-lime-400 rounded text-gray-800 text-base mt-4 md:mt-0">Login
