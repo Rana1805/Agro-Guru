@@ -1,8 +1,17 @@
-function Blog() {
-  
-    return (
-      <>
-      <section class="text-gray-600 body-font">
+import { StrictMode } from 'react'
+import { createRoot } from 'react-dom/client'
+import './index.css'
+import Header from './Header.jsx'
+import Footer from './Footer.jsx'
+
+
+
+createRoot(document.getElementById('root')).render(
+  <StrictMode>
+
+    <Header />
+
+    <section class="text-gray-600 body-font">
   <div class="container px-5 py-24 mx-auto">
     <div class="flex flex-wrap -m-4">
       <div class="p-4 md:w-1/3">
@@ -189,8 +198,9 @@ function Blog() {
     </div>
   </div>
 </section>
-      </>
-    )
-  }
-  
-  export default Blog
+
+    <Footer />
+    
+
+  </StrictMode>
+)
